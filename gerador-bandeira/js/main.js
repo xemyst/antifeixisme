@@ -58,7 +58,7 @@ function render() {
 	var angle = Math.PI * -0.55; // radians
 	var radius = -225;
 
-	drawTextAlongArc(ctx, "ANTIFASCISTA"+((p.checked) ? 'S' : ''), centerX, centerY, radius, angle);
+	drawTextAlongArc(ctx, "ANTIFEIXIST"+((p.checked) ? 'ES' : 'A'), centerX, centerY, radius, angle);
 
 	var centerX = (c.width / 2)-0;
 	var centerY = c.height - 245;
